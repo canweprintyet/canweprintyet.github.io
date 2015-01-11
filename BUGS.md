@@ -13,9 +13,9 @@
   * https://code.google.com/p/chromium/issues/detail?id=387729 (`position: fixed` elements should be repeated on each printed page)
 * Safari: https://bugs.webkit.org/buglist.cgi?query_format=advanced&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&component=Printing&product=WebKit
   * https://bugs.webkit.org/show_bug.cgi?id=17205 (`<thead>` should be repeated on each printed page)
-  * https://bugs.webkit.org/show_bug.cgi?id=19942
-  * https://bugs.webkit.org/show_bug.cgi?id=88365
-  * https://bugs.webkit.org/show_bug.cgi?id=126591  
-  * https://bugs.webkit.org/show_bug.cgi?id=138192
+  * https://bugs.webkit.org/show_bug.cgi?id=19942 (CSS gradients are not printed properly)
+  * https://bugs.webkit.org/show_bug.cgi?id=88365 (Printing fails if `<html>` has height of 0)
+  * https://bugs.webkit.org/show_bug.cgi?id=126591 (`vw` unit uses width of monitor window instead of width of paper when printing)
+  * https://bugs.webkit.org/show_bug.cgi?id=138192 (Fixed-width container makes fonts smaller when printing)
 * Mozilla: https://bugzilla.mozilla.org/buglist.cgi?component=Printing%3A%20Output&product=Core&bug_status=__open__
   * Too numerous to survey. Haven't encountered anything personally though.
