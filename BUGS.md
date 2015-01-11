@@ -1,8 +1,8 @@
 * Chrome: https://code.google.com/p/chromium/issues/list?q=label:Cr-Internals-Printing
-  * https://code.google.com/p/chromium/issues/detail?id=24826
-  * https://code.google.com/p/chromium/issues/detail?id=98949
-  * https://code.google.com/p/chromium/issues/detail?id=105201
-  * https://code.google.com/p/chromium/issues/detail?id=127651
+  * https://code.google.com/p/chromium/issues/detail?id=24826 (`<thead>` should repeat on each printed page)
+  * https://code.google.com/p/chromium/issues/detail?id=98949 (`body{margin: 0;}` from [Normalize.css](https://github.com/necolas/normalize.css/blob/master/normalize.css) breaks printing of SPAs)
+  * https://code.google.com/p/chromium/issues/detail?id=105201 (Element sized in inches via CSS is printed at somewhat larger size)
+  * https://code.google.com/p/chromium/issues/detail?id=127651 (Element with box-shadow prints as a completely black box)
   * https://code.google.com/p/chromium/issues/detail?id=139706
   * https://code.google.com/p/chromium/issues/detail?id=139825
   * https://code.google.com/p/chromium/issues/detail?id=174583
