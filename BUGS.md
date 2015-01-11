@@ -7,10 +7,10 @@
   * https://code.google.com/p/chromium/issues/detail?id=139825 (Printing fails if `<html>` has height of 0)
   * https://code.google.com/p/chromium/issues/detail?id=174583 (`box-shadow` prints as solid black instead of gradient)
   * https://code.google.com/p/chromium/issues/detail?id=264050 (width of `position: fixed` content wrong when printed)
-  * https://code.google.com/p/chromium/issues/detail?id=273306
+  * https://code.google.com/p/chromium/issues/detail?id=273306 (Element sized in points via CSS is printed at somewhat larger size)
   * https://code.google.com/p/chromium/issues/detail?id=307611
-  * https://code.google.com/p/chromium/issues/detail?id=382313
-  * https://code.google.com/p/chromium/issues/detail?id=387729
+  * https://code.google.com/p/chromium/issues/detail?id=382313 (Viewport-based sizing units (`vmin`, `vmax`, `vw`, `vh`) equal 0 when printing)
+  * https://code.google.com/p/chromium/issues/detail?id=387729 (`position: fixed` elements should be output on every page when printing)
 * Safari: https://bugs.webkit.org/buglist.cgi?query_format=advanced&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&component=Printing&product=WebKit
   * https://bugs.webkit.org/show_bug.cgi?id=17205
   * https://bugs.webkit.org/show_bug.cgi?id=19942
