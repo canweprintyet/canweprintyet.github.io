@@ -3,10 +3,10 @@
   * https://code.google.com/p/chromium/issues/detail?id=98949 (`body{margin: 0;}` from [Normalize.css](https://github.com/necolas/normalize.css/blob/master/normalize.css) breaks printing of SPAs)
   * https://code.google.com/p/chromium/issues/detail?id=105201 (Element sized in inches via CSS is printed at somewhat larger size)
   * https://code.google.com/p/chromium/issues/detail?id=127651 (Element with box-shadow prints as a completely black box)
-  * https://code.google.com/p/chromium/issues/detail?id=139706
-  * https://code.google.com/p/chromium/issues/detail?id=139825
-  * https://code.google.com/p/chromium/issues/detail?id=174583
-  * https://code.google.com/p/chromium/issues/detail?id=264050  
+  * https://code.google.com/p/chromium/issues/detail?id=139706 (Print dialog box should be modal)
+  * https://code.google.com/p/chromium/issues/detail?id=139825 (Printing fails if `<html>` has height of 0)
+  * https://code.google.com/p/chromium/issues/detail?id=174583 (`box-shadow` prints as solid black instead of gradient)
+  * https://code.google.com/p/chromium/issues/detail?id=264050 (width of `position: fixed` content wrong when printed)
   * https://code.google.com/p/chromium/issues/detail?id=273306
   * https://code.google.com/p/chromium/issues/detail?id=307611
   * https://code.google.com/p/chromium/issues/detail?id=382313
