@@ -26,9 +26,43 @@
       <article class="large-10 large-centered columns">
         <section>
           <h2>Overview</h2>
-          <p>In 1439, Gutenberg's printing press began allowing for mass production of documents.</p>
-          <p>In the early 1900s, offset lithography started to help make newspapers and magazines with good-fidelity color images widely available.</p>
-          <p>It is 2015, and printing webpages in major modern Web browsers is a fairly bug-ridden affair.</p>
+          <p>
+            In 1439, Gutenberg's printing press began allowing for mass production of documents.<br />
+            In the early 1900s, offset lithography started to help make newspapers and magazines with good-fidelity color images widely available.<br />
+            It is 2015, and printing webpages in major modern Web browsers is a fairly bug-ridden affair.
+          </p>
+          <p>
+            And we're not even talking about "fancy" "cutting-edge" stuff like the <a href="http://dev.w3.org/csswg/css-page/">CSS Paged Media Module Level 3</a>, much less the <a href="http://dev.w3.org/csswg/css-page-floats/">Page Floats</a> or <a href="http://dev.w3.org/csswg/css-gcpm/">GCPM</a> CSS specs. We're talking about more basic stuff, like <em><a href="https://code.google.com/p/chromium/issues/detail?id=105201">actually physically printing elements at the exact size you explicitly declared them to be!</a></em>
+          </p>
+          <p>
+            It shouldn't be like this. Since pretty early on, CSS was designed to take into account the need to print things.
+            CSS2 defined a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media#Media_types"><code>print</code> media type</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@page"><code>@page</code> rules</a>.
+            CSS1 defined inch, cm, mm, and point units.
+            When combined with <code>min-width</code> and <code>max-width</code> media queries, these together should have been sufficient to allow Web designers to achieve a great many things with print media with relative ease.
+            Instead, they are left to wade through a thicket of bugs.
+            Even in an era when traditional print media is on the decline, there are still many cases where hard copies are necessary; Amazon has to put shipping labels on boxes somehow.
+            And so today's best-practice has become to generate PDFs or raster images, and give up on serious usage of the Web for print media.
+          </p>
+          <p>
+            With the Web, you might be able to 
+            <a href="http://www.w3.org/TR/IndexedDB/">process data with transactional safety</a>,
+            <a href="https://www.khronos.org/registry/webgl/specs/latest/">play an online 3D videogame</a>
+            while <a href="http://www.w3.org/TR/webrtc/">video-chatting with your teammates</a>,
+            or <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video">show your friend a funny cat video</a>
+            and then <a href="http://www.w3.org/TR/geolocation-API/">look up the nearest hospital</a> when they start dying of laughter,
+            but heaven forbid you should want your online article to look nice when someone prints it out to show it to their grandfather...
+          </p>
+        </section>
+        <section>
+          <h2>Call to action</h2>
+          <p>We call upon the browser vendors to stop overlooking these languishing printing-related bugs and start prioritizing the fixing of them.</p>
+          <p>We call upon fellow Web designers and Web developers everywhere to (depending on the bug tracking system in use) star or vote for or add themselves to the CC lists of the brower bugs listed below, to let the browser vendors know that we care about getting them fixed.</p>
+          <p>And of course, it would be wonderful if there was greater progress in the testing and standardization of printing on the Web, but we won't hold our breath.</p>
+        </section>
+        <section>
+          <h2>The Bugs</h2>
+          <p>We'll now proceed to detail the littany of bugs that currently make the life of print stylesheet designer a living hell.</p>
+          <p><b>[IN PROGRESS]</b> Until this section is written, please consult <a href="https://github.com/canweprintyet/canweprintyet.github.io/blob/master/BUGS.md">BUGS.md</a>.</p>
         </section>
       </article>
     </main>
