@@ -1,3 +1,7 @@
+* Test env
+  * OS X 10.10.1 Yosemite
+  * Chrome: Version 39.0.2171.95 (64-bit)
+  * Safari: Version 8.0.2 (10600.2.5)
 * Chrome: https://code.google.com/p/chromium/issues/list?q=label:Cr-Internals-Printing
   * https://code.google.com/p/chromium/issues/detail?id=24826 (`<thead>` should be repeated on each printed page)
   * https://code.google.com/p/chromium/issues/detail?id=98949 (`body{margin: 0;}` from [Normalize.css](https://github.com/necolas/normalize.css/blob/master/normalize.css) breaks printing of SPAs)
