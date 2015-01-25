@@ -61,15 +61,26 @@
           </p>
         </section>
         <section>
+          <h2>The Bugs</h2>
+          <p>We'll now proceed to detail the bugs that currently make the life of print stylesheet designer very painful.</p>
+          <section>
+            <h3 id="cr-bug-105201">Chrome incorrectly sizes elements when printing (Bug #105201)</h3>
+            <p>This is by far the most egregious bug. Due to <a href="https://code.google.com/p/chromium/issues/detail?id=105201">Chromium bug #105201</a>, which has been open since 2011, Chrome prints elements slightly larger than their explicit CSS sizes (even when print margins are disabled, even when the sizes are declared within a <code>@media print</code> media query).</p>
+            <figure>
+              <a href="/img/chrome/105201/scan-cropped.jpg"><img src="/img/chrome/105201/scan-cropped-scaled-480ppi-width_500px.jpg" /></a>
+              <figcaption>
+                This <code>&lt;div&gt;</code> was styled as <code>width: 2in; height: 2in;</code>, but when printed by Chrome it's about 2&#x215b; inches wide instead, due to <a href="https://code.google.com/p/chromium/issues/detail?id=105201">Chromium bug #105201</a>.<br />
+                (Click image for enhanced version)
+              </figcaption>
+            </figure>
+          </section>
+          <p><b>[IN PROGRESS]</b> Until this section is written, please consult <a href="https://github.com/canweprintyet/canweprintyet.github.io/blob/master/BUGS.md">BUGS.md</a>.</p>
+        </section>
+        <section>
           <h2>Call to action</h2>
           <p>We call upon the browser vendors to stop overlooking these languishing printing-related bugs and start prioritizing the fixing of them.</p>
           <p>We call upon fellow Web designers and Web developers everywhere to (depending on the bug tracking system in use) star or vote for or add themselves to the CC lists of the browser bugs listed below, to let the browser vendors know that we care about getting them fixed.</p>
           <p>And of course, it would be wonderful if there was greater progress in the testing and standardization of printing on the Web, but we won't hold our breath.</p>
-        </section>
-        <section>
-          <h2>The Bugs</h2>
-          <p>We'll now proceed to detail the litany of bugs that currently make the life of print stylesheet designer a living hell.</p>
-          <p><b>[IN PROGRESS]</b> Until this section is written, please consult <a href="https://github.com/canweprintyet/canweprintyet.github.io/blob/master/BUGS.md">BUGS.md</a>.</p>
         </section>
       </article>
     </main>
