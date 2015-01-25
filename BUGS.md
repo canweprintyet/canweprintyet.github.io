@@ -2,6 +2,14 @@
   * OS X 10.10.1 Yosemite
   * Chrome: Version 39.0.2171.95 (64-bit)
   * Safari: Version 8.0.2 (10600.2.5)
+  * Scanner/Printer
+    * HP Photosmart C4780
+    * Scanned @ 1200dpi
+    * Chrome print settings
+      * Layout: Portrait
+      * Paper size: US Letter
+      * Margins: None
+      * Background graphics: Checked
 * `pngcrush -rem iTXt input.png cleaned_output.png`
 * Chrome: https://code.google.com/p/chromium/issues/list?q=label:Cr-Internals-Printing
   * https://code.google.com/p/chromium/issues/detail?id=24826 (`<thead>` should be repeated on each printed page)
