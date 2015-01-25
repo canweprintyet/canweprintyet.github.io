@@ -70,7 +70,7 @@
           <section>
             <h3 id="cr-bug-105201">Chrome incorrectly sizes elements when printing (Bug #105201)</h3>
             <p>This is by far the most egregious bug. Due to <a href="https://code.google.com/p/chromium/issues/detail?id=105201">Chromium bug #105201</a>, which has been open since 2011, Chrome prints elements slightly larger than their explicit CSS sizes (even when print margins are disabled, even when the sizes are declared within a <code>@media print</code> media query).</p>
-            <figure>
+            <figure class="th">
               <a href="/img/chrome/105201/scan-cropped.jpg"><img src="/img/chrome/105201/scan-cropped-scaled-480ppi-width_500px.jpg" /></a>
               <figcaption>
                 This <code>&lt;div&gt;</code> was styled as <code>width: 2in; height: 2in;</code>, but when printed by Chrome it's about 2&#x215b; inches wide instead, due to <a href="https://code.google.com/p/chromium/issues/detail?id=105201">Chromium bug #105201</a>.<br />
