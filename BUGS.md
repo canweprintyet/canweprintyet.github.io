@@ -11,7 +11,7 @@
       * Margins: None
       * Background graphics: Checked
 * `pngcrush -rem iTXt input.png cleaned_output.png`
-* Chrome: https://code.google.com/p/chromium/issues/list?q=label:Cr-Internals-Printing
+* Chrome: https://bugs.chromium.org/p/chromium/issues/list?q=component%3AInternals%3EPrinting
   * https://code.google.com/p/chromium/issues/detail?id=127651 (Element with box-shadow prints as a completely black box)
   * https://code.google.com/p/chromium/issues/detail?id=139706 (Print dialog box should be modal)
   * https://code.google.com/p/chromium/issues/detail?id=139825 (Printing fails if `<html>` has height of 0) [Restricted]
